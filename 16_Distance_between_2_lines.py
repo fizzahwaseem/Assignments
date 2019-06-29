@@ -1,0 +1,10 @@
+#Python program to compute the distance between the points (x1, y1) and (x2, y2)
+from math import sqrt 
+x1, y1 = input("Enter x1 and y1 seperated by spaces: ").split()
+x2, y2 = input("Enter x2 and y2 seperated by spaces: ").split()
+x1 = float(x1)
+y1 = float(y1)
+x2 = float(x2)
+y2 = float(y2)
+distance = sqrt((x2-x1) ** 2 + (y2 - y1) ** 2)
+print("Distance between the points is: ", distance)
